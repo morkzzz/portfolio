@@ -3,28 +3,33 @@
 :root {
   --cor-principal: #6E859F;
   --cor-secundaria: #284260;
-  --cor-destaque: black;
+  --cor-destaque: #C92BFC;
 }
 
 body {
-  font-family: 'Chakra Petch', Sans-Serif;
-  color: var(--cor-principal);
+  font-family: 'Chakra Petch', sans-serif;
+  background-color: black;
+  color: white;
 }
 
 h1, h2, h5 {
-  color: var(--cor-secundaria);
+  color: white;
   font-weight: 700;
 }
 
-.lead, .btn-link {
-  color: var(--cor-destaque);
+footer a {
+  color: white;
+}
+
+footer a:hover {
+  color: green;
+}
+
+.lead {
+  color: white;
   font-weight: 700;
 }
 
-footer a, .btn-link:houver {
-  color: var(--cor-principal);
-}
-
-a:houver {
-  color: var(--cor-destaque);
+.modal, .modal-title {
+  color: black;
 }
